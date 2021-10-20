@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.fontkeunggulan {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.judulatasnya {
+  font-size: 38px;
+  font-family: 'Oswald', sans-serif;
+}
