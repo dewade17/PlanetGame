@@ -18,6 +18,11 @@ function promosi() {
   document.getElementById('Jam').innerText = j;
   document.getElementById('Menit').innerText = m;
   document.getElementById('Detik').innerText = d;
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById('Hari jam menit detik').innerText = 'kadaluwarsa!!!';
+  }
 }
 
 setInterval(function () {
