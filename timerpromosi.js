@@ -19,7 +19,7 @@ function promosi() {
   document.getElementById('Menit').innerText = m;
   document.getElementById('Detik').innerText = d;
 
-  if (gap < 1144) {
+  if (gap < 0) {
     clearInterval(gap);
     document.getElementById('Hari').innerText = '00';
     document.getElementById('Jam').innerText = '00';
