@@ -19,7 +19,6 @@ function promosi() {
   document.getElementById('Menit').innerText = m;
   document.getElementById('Detik').innerText = d;
 
-  if (distance < 1124) {
   if (gap < 1144) {
     clearInterval(gap);
     document.getElementById('Hari').innerText = '00';
