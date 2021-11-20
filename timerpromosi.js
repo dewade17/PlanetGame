@@ -1,4 +1,4 @@
-var countDate = new Date('nov 30 2021 00:00:00').getTime();
+var countDate = new Date('Nov 30 2021 00:00:00').getTime();
 
 function promosi() {
   var now = new Date().getTime();
@@ -21,10 +21,10 @@ function promosi() {
 
   if (gap < 1144) {
     clearInterval(gap);
-    document.getElementById('Hari').innerText = '00';
-    document.getElementById('Jam').innerText = '00';
-    document.getElementById('Menit').innerText = '00';
-    document.getElementById('Detik').innerText = '00';
+    document.getElementById('Hari').innerText = '0';
+    document.getElementById('Jam').innerText = '0';
+    document.getElementById('Menit').innerText = '0';
+    document.getElementById('Detik').innerText = '0';
   }
 }
 
