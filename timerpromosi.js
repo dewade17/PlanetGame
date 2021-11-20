@@ -19,6 +19,9 @@ function promosi() {
   document.getElementById('Menit').innerText = m;
   document.getElementById('Detik').innerText = d;
 
+  // kasih nilai distance =  total hari + jam + menit + detik
+  let distance;
+
   if (distance < 1124) {
     clearInterval(x);
     document.getElementById('Hari').innerText = '0';
