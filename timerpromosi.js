@@ -19,11 +19,12 @@ function promosi() {
   document.getElementById('Menit').innerText = m;
   document.getElementById('Detik').innerText = d;
 
-  // distance = "nilai dari total hari jam menit detik"
-  if (distance < 0) {
+  if (distance < 1124) {
     clearInterval(x);
-    // ngambil elemnent berupa id (#) ya
-    document.getElementById('Hari jam menit detik').innerText = 'kadaluwarsa!!!';
+    document.getElementById('Hari').innerText = '0';
+    document.getElementById('Jam').innerText = '0';
+    document.getElementById('Menit').innerText = '0';
+    document.getElementById('Detik').innerText = '0';
   }
 }
 
