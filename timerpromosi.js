@@ -1,4 +1,4 @@
-var countDate = new Date('Feb 1 2022 00:00:00').getTime();
+var countDate = new Date('Jan 25 2022 00:00:00').getTime();
 
 function promosi() {
   var now = new Date().getTime();
